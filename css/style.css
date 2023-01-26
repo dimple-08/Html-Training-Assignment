@@ -330,7 +330,7 @@ position:relative;
 #displayContainer{
     top: 114px;
     left: -822px;
-    width: 197px;
+    width: fit-content;
     height: 89px;
     background: #FFFFFF 0% 0% no-repeat padding-box;
     border-radius: 5px;
@@ -379,7 +379,7 @@ position:relative;
 #displayContainer2{
     top: 114px;
     left: -755px;
-    width: 197px;
+    width: fit-content;
     height: 89px;
     background: #FFFFFF 0% 0% no-repeat padding-box;
     border-radius: 5px;
@@ -389,7 +389,7 @@ position:relative;
 #displayContainer3{
     top: 114px;
     left: -689px;
-    width: 189px;
+    width: fit-content;
     height: 89px;
     background: #FFFFFF 0% 0% no-repeat padding-box;
     border-radius: 5px;
@@ -399,7 +399,7 @@ position:relative;
 #displayContainer4{
     top: 114px;
 left: -625px;
-width: 189px;
+width: fit-content;
 height: 89px;
 /* UI Properties */
 background: #FFFFFF 0% 0% no-repeat padding-box;
@@ -410,7 +410,7 @@ position: relative;
 #displayContainer5{
     top: 114px;
 left: -563px;
-width: 189px;
+width: fit-content;
 height: 89px;
 /* UI Properties */
 background: #FFFFFF 0% 0% no-repeat padding-box;
@@ -434,7 +434,7 @@ position: relative;
 }
 #piechart{
     top: 101px;
-    left: 87px;
+    left: 104px;
     width: 385px;
     height: 398px;
     background: #FFFFFF 0% 0% no-repeat padding-box;
