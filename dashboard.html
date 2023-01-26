@@ -4,6 +4,7 @@
         <title>Dashboard</title>
         <link rel="stylesheet" href="D:\HTML Training Assignment\css\style.css">
     </head>
+    <body >
     <div class="header">
         <img id="menubar" src="D:\HTML Training Assignment\images\menu-bar.svg"/>
         <img id="headerlogo" src="D:\HTML Training Assignment\images\header-logo.svg"/>
@@ -15,26 +16,51 @@
         <img id="downarraow" src="D:\HTML Training Assignment\images\downward-arrow.svg"/>
        
     </div>
-    <div display="flex">
-    <div class="sidenav">
-        <div id="firstmenuactive" ><a><img id="dashboard"src="D:\HTML Training Assignment\images\dashboard-active.svg"/><font id="dashboadtxtactive">Dashboard</font></a></div>
-        <br>
-        <div id="firstmenu"><img id="dashboard"src="D:\HTML Training Assignment\images\graph-default.svg"/><font id="dashboadtxt">Analysis</font></div>
-        <br>
-        <div id="firstmenu"><img id="dashboard" src="D:\HTML Training Assignment\images\inbox-default.svg"/><font id="dashboadtxt">Inbox</font></div>
-        <br>
-        <div id="firstmenu"><img id="dashboard" src="D:\HTML Training Assignment\images\clock-default.svg"/><font id="dashboadtxt">History</font></div>
-        <br>
-        <div id="firstmenu"><img id="dashboard" src="D:\HTML Training Assignment\images\user-default.svg"/><font id="dashboadtxt">Users</font></div>
-        <br>
-        <div id="firstmenu"><img id="dashboard" src="D:\HTML Training Assignment\images\maintenance-default.svg"/><font id="dashboadtxt">Maintanance</font></div>
-        <br>
-        <div id="firstmenu"><img id="dashboard" src="D:\HTML Training Assignment\images\setting-default.svg"/><font id="dashboadtxt">Setting</font></div>
+    <div style="display:flex">
+       <div class="sidenav">
+          <div id="firstmenuactive" ><a><img id="img"src="D:\HTML Training Assignment\images\dashboard-active.svg"/><font id="dashboadtxtactive">Dashboard</font></a></div>
+          <br>
+           <div id="firstmenu"><img id="img"src="D:\HTML Training Assignment\images\graph-default.svg"/><font id="txt">Analysis</font></div>
+           <br>
+            <div id="firstmenu"><img id="img" src="D:\HTML Training Assignment\images\inbox-default.svg"/><font id="txt">Inbox</font></div>
+            <br>
+            <div id="firstmenu"><img id="img" src="D:\HTML Training Assignment\images\clock-default.svg"/><font id="txt">History</font></div>
+            <br>
+            <div id="firstmenu"><img id="img" src="D:\HTML Training Assignment\images\user-default.svg"/><font id="txt">Users</font></div>
+            <br>
+            <div id="firstmenu"><img id="img" src="D:\HTML Training Assignment\images\maintenance-default.svg"/><font id="txt">Maintanance</font></div>
+            <br>
+            <div id="firstmenu"><img id="img" src="D:\HTML Training Assignment\images\setting-default.svg"/><font id="txt">Setting</font></div>
 
-    </div>
-</div>
-    <div>
-       Dashboard...
-    </div>
+        </div>
+     <div id="container">
+        <div>
+           <font id="maincontainer"><b>Dashboard</b></font>
+        </div>
+        <br>
+          <div id="maindisplaycontainer" style="display:flex">
+             <div id="displayContainer"><img id="containerimg"src="D:\HTML Training Assignment\images\star.svg"><label id="labeltxt"><b>23,456</b></label>
+              <label id="infotxt"><b>New Products</b></label> </div>
+             <div id="displayContainer2"><img id="containerimg"src="D:\HTML Training Assignment\images\new-product.svg"><label id="labeltxt"><b>2345</b></label>
+                <label id="infotxt"><b>Added Products</b></label> </div>  
+             <div id="displayContainer3"><img id="containerimg"src="D:\HTML Training Assignment\images\total-product.svg"><label id="labeltxt"><b>32,456</b></label>
+                    <label id="infotxt"><b>Total Products</b></label> </div>
+             <div id="displayContainer4"><img id="containerimg"src="D:\HTML Training Assignment\images\dollar-filled.svg"><label id="labeltxt"><b>5678</b></label>
+                        <label id="infotxt"><b>Today's Sale</b></label> </div>
+             <div id="displayContainer5"><img id="containerimg"src="D:\HTML Training Assignment\images\money-bag.svg"><label id="labeltxt"><b>33,5342</b></label>
+                            <label id="infotxt"><b>Total Sale</b></label> </div>
+          </div>
+          <div style="display:flex">
+                <div id="graph">
+                    <img id="graphimg"src="D:\HTML Training Assignment\images\data-graph.png"/>
+                 </div>
+                <div id="piechart">
 
+                </div>
+            </div>
+     </div>
+     
+    </div>
+    
+</body>
 </html>
