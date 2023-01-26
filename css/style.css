@@ -325,6 +325,7 @@ position:relative;
     opacity: 1;
     position: relative;
     left: 34px;
+    width: -webkit-fill-available;
 }
 #displayContainer{
     top: 114px;
@@ -373,6 +374,7 @@ position:relative;
     top: -47px;
     left: 873px;
     position: relative;
+    width: fit-content;
 }
 #displayContainer2{
     top: 114px;
@@ -439,4 +441,8 @@ position: relative;
     border-radius: 5px;
     opacity: 1;
     position: relative;
+}
+#pieimg{
+    margin-top: 90px;
+    margin-left: 67px;
 }
