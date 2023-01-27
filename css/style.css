@@ -667,3 +667,8 @@ height: 45px;
     top: 83px;
     position: relative;
 }
+.nav-item active{
+    border:none;
+    color:#c8242f;
+    
+}
