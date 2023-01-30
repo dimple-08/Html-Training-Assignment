@@ -1,6 +1,4 @@
-@media (min-width:360px){
- .h-custom{ width: 100%;}
-}
+
     #container{
         top: 0px;
     left: 0px;
@@ -712,6 +710,10 @@ height: 45px;
     letter-spacing: 0.1rem;
 }
 
+input[type=radio],input[type='checkbox']{
+    accent-color: crimson !important;
+}
+
 .input-bx input:valid,
 .input-bx input:focus{
     color: black;
@@ -726,57 +728,64 @@ height: 45px;
     color: #C8242F;
     border-bottom: 2px solid #C8242F;
   }
-  @media only screen and (max-width: 600px) {
+
+  @media screen and (max-width: 360px) {
     
     #container{
-        width: 100%;
-        height:970px;
+        width:100%;
+        height:800px;
         display:block;
     }
     #imglogin{
         width: 50%;
     height: auto;
-    top: -63px;
-    left:56px;
+    top: -74px;
+    left:0px;
+    position:absolute;
+    opacity: 0.2;
     }
     #hero-image{
-        width: 122%;
-        left: 30px;
+        width: 180%;
+        left: 0px;
         top: 105px;
         position: relative;
-        height: 48%;
+        
     }
     #form{
-        width:50%;
-        left: 108px;;
+        width:43%;
+        left: 0px;
+        position: absolute;
     }
     #bold{
-        width:449px;
-        font: normal normal 300 32px/47px Roboto;
+        width:335px;
+        font: normal normal 300 20px/47px Roboto;
     }
     #info{
         top:-18px;
-        font: normal normal normal 21px/33px Roboto;
+        font: normal normal normal 20px/33px Roboto;
     }
     #username{
         top:-30px;
+        width:191%;
     }
     #password{
         top: -33px;
+        width:191%;
     }
     #login{
         top: -32px;
         height: 37px;
-        width: 97px;
+        width: 59px;
     }
     #forgotlink{
-        margin-left: 16px;
+        margin-left: 12px;
         top: -32px;
-        font: normal normal normal 11px/20px Roboto;
+        font: normal normal normal 9px/20px Roboto;
     }
     #twolink{
         top: -31px;
-        width:94%;
+        width:150%;
+        position:relative;
     }
     #link{
         width: 296px;
