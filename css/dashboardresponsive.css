@@ -13,6 +13,9 @@
         opacity: 0;
         font: normal normal normal 12px/21px Roboto;
     }
+    #downarraow1{
+        display: none;
+    }
     #menu{
         display: none;
     }
@@ -49,6 +52,7 @@
     width:34px;
    }
    #downarraow{
+    display: block;
     top:-135px;
     left:281px;
     width:65px;
