@@ -179,7 +179,15 @@ position:relative;
     opacity: 1;
     position: relative;
 }
-
+#headerlogomobile{
+    top: 5px;
+    left: 24px;
+    width: 142px;
+    height: 30px;
+    opacity: 1;
+    display:none;
+    position: relative;
+}
 #menubar{
     top: 34px;
 left: 29px;
@@ -254,6 +262,9 @@ opacity: 1;
     opacity: 1;
     position: relative;
 }
+#mySidebar{
+    display:none;
+}
 .sidenav{
     top: -7px;
     left: 0px;
@@ -262,6 +273,18 @@ opacity: 1;
     background: #FFFFFF 0% 0% no-repeat padding-box;
     opacity: 1;
     position: relative;
+}
+#menu{
+    top: 34px;
+    left: 29px;
+    width: 18px;
+    height: 30px;
+    /* UI Properties */
+    background:  0% 0% no-repeat padding-box;
+    opacity: 1;  
+}
+#btnmenu{
+    display: none;
 }
 #img{
     top: 5px;
