@@ -124,18 +124,18 @@
                    </div></div>       
                </div>
            </div>
-           <div id="table">
+           <div id="table" class="row">
              <label id="tableinfo">Invoices</label>
              <label id="tableseeall" >View All</label>
              <table class="table">
                 <thead>
                   <tr>
-                    <th scope="col" class="tablecol">Invoice</th>
-                    <th scope="col"class="tablecol">Company Name</th>
-                    <th scope="col"class="tablecol">Email</th>
-                    <th scope="col"class="tablecol">Due Date</th>
-                    <th scope="col"class="tablecol">Status</th>
-                    <th scope="col"class="tablecol">Amount</th>
+                    <th scope="col" class="tablecol col-sm-6">Invoice</th>
+                    <th scope="col"class="tablecol col-sm-6">Company Name</th>
+                    <th scope="col"class="tablecol col-sm-6">Email</th>
+                    <th scope="col"class="tablecol col-sm-6">Due Date</th>
+                    <th scope="col"class="tablecol col-sm-6">Status</th>
+                    <th scope="col"class="tablecol col-sm-6">Amount</th>
                   </tr>
                 </thead>
                 <tbody>
@@ -249,6 +249,13 @@ element.addEventListener("click", function() {
     document.getElementById("downarraow").style.left="273px";
   }
 });
+var homeIcon = document.querySelector('.table');
+
+window.onResize = function() {
+  if (window.innerWidth <= 360 ){ homeIcon.classList.add('table-responsive-sm');
+alert("hello");}
+  else homeIcon.classList.remove('table-responsive-sm');
+};
 
     </script>
 </body>

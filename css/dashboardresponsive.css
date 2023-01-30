@@ -111,14 +111,14 @@
     left:0px;
     width: fit-content;
   }
-  #basicinfo{
+  #basisinfo{
     top: 20px;
-    left: 110px;
+    left: 90px;
     width: 108px;
   }
   #yearly{
     top: 20px;
-    left: 11px;
+    left: 83px;
   }
   #graphimg{
     width: 87%;
@@ -128,5 +128,8 @@
   #piechart{
     left:0px;
     width:fit-content;
+  }
+  .table{
+    overflow-y: hidden
   }
 }
