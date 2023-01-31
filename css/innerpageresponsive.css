@@ -115,6 +115,9 @@
     padding: 0px;
 
   }
+  #option2{
+    left:0px;
+  }
 
 
 }
@@ -157,6 +160,9 @@
    #search{
     top: -61px;
     left: 98px;
+   }
+   .search1{
+    display: none;
    }
    #searchtext{
     display:none;

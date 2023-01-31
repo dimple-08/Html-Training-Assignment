@@ -673,6 +673,9 @@ left: 40px;
     width: 83%;
     position: relative;
 }
+#option2{
+    left:-405px;
+}
 #checkbox{
     top: 45px;
     position: relative;
