@@ -1,0 +1,781 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <style>
+        .maindashboard {
+    background-color: #fafafa;
+    height: 1200px;
+    /*width: auto; */
+    margin-top: 1%;
+  
+  }
+  
+  .dashboard-web-logo {
+    width: 142px;
+    height: 30px;
+    margin-left: 25px;
+    margin-right: 70px;
+  }
+  
+  .dashboard-search-icon {
+    width: 16px;
+    height: 16px;
+    margin-right: 15px;
+  }
+  
+  .searchbar {
+    width: auto;
+    border: none;
+  }
+  
+  .dashboard-notification-icon {
+    margin-right: 50px;
+  }
+  
+  .dashboard-profile-icon {
+    width: 44px;
+    height: 44px;
+    margin-right: 12px;
+  }
+  
+  .dashboard-select-downward {
+    margin-left: 15px;
+  }
+  
+  .sidebarimg {
+    max-width: 25px;
+    max-height: 25px;
+    color: #c8242f;
+    margin: 0 10px 0 0;
+  }
+  
+  .dashbord-sidebar-detail {
+    background: #fff3f4 0% 0% no-repeat padding-box;
+    border-radius: 5px;
+    width: 250px !important;
+    opacity: 1;
+  }
+  
+  .sidebar-detail {
+    padding: 10px 0 10px 15px;
+    margin: 0 0 10px 0;
+  }
+  
+  .sidebar {
+    margin-top: 25px;
+  }
+  
+  @media (max-width: 992px) {
+    .dashboard-toggle-logo {
+        display: none;
+    }
+  
+    .navbar-toggler {
+        width: 50px;
+    }
+  
+    .dashboard-notification-icon,
+    .dashboard-select-downward {
+        display: none;
+    }
+  
+    .dashboard-search-toggle {
+        margin-bottom: 10px;
+    }
+  
+    .dashboard-sidebar-toggle {
+        display: none;
+    }
+  
+    .dashbord-sidebar-detail {
+        width: 500px;
+    }
+  
+    .offcanvas-title {
+        max-width: 25px;
+    }
+  }
+  
+  @media (min-width: 992px) {
+    .dashboard-nav-sidebar-toggle {
+        display: none;
+    }
+  }
+  
+  
+  /* mainbody css start*/
+  
+  .mainbody {
+    background-color: rgb(248, 248, 248);
+  }
+  
+  .anaysis {
+    font-weight: 600;
+  }
+  
+  .formelement {
+    background-color: #ffffff;
+  }
+  
+  .oneclmn {
+    font-weight: 500;
+  }
+  
+  .username {
+    height: 40px;
+  }
+  
+  #dropdown {
+    height: 40px !important;
+    width: 100%;
+    font-size: 15px !important;
+    color: #adadad !important;
+    margin-top: 10px !important;
+    border-radius: 5px !important;
+    border: 1px solid;
+  }
+  
+  #textarea {
+    height: 150px;
+    width: 100%;
+    font-size: 15px;
+    color: #adadad !important;
+    margin-top: 10px;
+    border-radius: 5px;
+  }
+  
+  #name1 {
+    height: 45px;
+    width: 100%;
+    font-size: 15px;
+    color: #adadad;
+    border-radius: 5px;
+    border: 1px solid;
+  }
+  
+  fieldset {
+    width: 100%;
+    border: 1px solid;
+    border-radius: 5px;
+    padding: 10px;
+    height: 45px;
+    position: relative;
+  }
+  
+  legend {
+    font-weight: bold;
+    position: absolute;
+    /* left: 10px;*/ 
+    top: -1.1em;
+    height: 1.3em;
+    line-height: 2em;
+    padding: 0 10px;
+    background-color: #ffffff;
+    width: auto;
+    z-index: 1;
+  }
+  
+  .legendname {
+    font-size: 16px;
+    color: #6d6c6c;
+    font-weight: 300;
+  }
+  
+  @media screen and (max-width:768px) {
+    .left2name {
+        margin-left: 2px !important;
+        width: 100% !important;
+    }
+  
+    .legend2right {
+        margin-left: 2px !important;
+        width: 100% !important;
+        margin-top: 24px;
+    }
+  
+    legend {
+        height: 1.2em;
+        padding: 0 10px;
+        background-color: #ffffff;
+        width: auto;
+        z-index: 1;
+    }
+  
+    #pwd {
+        margin-top: 25px;
+    }
+  
+    #dotted {
+        margin-top: 25px;
+    }
+  
+    #desg {
+        border-color: #c8242f;
+        width: 100% !important;
+    }
+  
+    .info,
+    .succ {
+        margin-left: 0px !important;
+    }
+  }
+  
+  @media screen and (max-width:425px) {
+    .secondary {
+        margin-left: 35px;
+    }
+  
+  }
+  
+  .dropdown2clmn {
+    height: 40px !important;
+    width: 100%;
+    font-size: 15px !important;
+    color: #adadad !important;
+    margin-top: 10px !important;
+    border-radius: 5px !important;
+    border: 1px solid;
+  }
+  
+  #focus {
+    border-color: #c8242f;
+    width: 100%;
+  }
+  
+  #pwd {
+    border-color: #adadad;
+    width: 100%;
+  }
+  
+  #dotted {
+    border-color: #adadad;
+    width: 100%;
+    border-style: dotted;
+  }
+  
+  .fourcolumn2 {
+    width: 100%;
+    border-radius: 3px;
+    height: 45px;
+    border: 1px solid !important;
+  }
+  
+  .dropdown4clmn {
+    height: 45px !important;
+    width: 100%;
+    font-size: 15px !important;
+    color: #adadad !important;
+    margin-top: 0px !important;
+    border-radius: 5px !important;
+    border: 1px solid;
+  }
+  
+  #desg {
+    border-color: #c8242f;
+    width: 100%;
+  }
+  
+  .uploadbtn {
+    border-radius: 30px;
+    border: 2px solid;
+    height: 45px;
+    width: 150px;
+    border-color: #ff3b3b;
+    background-color: #ffffff;
+    display: flex;
+    margin-left: 30px;
+  }
+  
+  .uploadimg {
+    height: 30px;
+    width: 30px;
+    margin-left: 15px;
+    margin-top: 5px;
+  }
+  
+  .uploadtxt {
+    font-size: 20px;
+    color: #ff3b3b;
+    margin-left: 5px;
+    margin-top: 5px;
+    font-weight: 500;
+  }
+  
+  .noitemselect {
+    color: #adadad;
+    font-size: 13px;
+    margin-top: 10px;
+    margin-left: 10px;
+  }
+  
+  .upload {
+    display: flex;
+  }
+  
+  input.btn1 {
+margin-left: 26px; 
+    margin-top: 0px;
+    accent-color: red;
+  }
+  
+  .err,
+  .info,
+  .warning,
+  .succ {
+    display: flex;
+  }
+  
+  .err {
+    height: 45px;
+    border-radius: 5px;
+    margin-top: 30px;
+    border: solid;
+    border-color: #ff3b3b;
+    color: #ff3b3b;
+  }
+  
+  .info {
+    height: 45px;
+    border-radius: 5px;
+    margin-top: 30px;
+    border: solid;
+    border-color: #00b9e1;
+    color: #00b9e1;
+  }
+  
+  .warning {
+    height: 45px;
+    margin-top: 30px;
+    border-radius: 5px;
+    border: solid;
+    border-color: #ffa800;
+    color: #ffa800;
+  }
+  
+  .succ {
+    height: 45px;
+    margin-top: 30px;
+    border-radius: 5px;
+    border: solid;
+    border-color: #00af27;
+    color: #00af27;
+  }
+  
+  .snackimg {
+    height: 30px;
+    width: 30px;
+  }
+  
+  .snackimg,
+  .errtxt,
+  .infotxt,
+  .warntxt,
+  .succtxt {
+    margin-top: 5px;
+  }
+  
+  .snackbartxt,
+  .tabtxt {
+    font-size: 18px;
+    font-weight: 500;
+    margin-left: 29px;
+    padding-top: 25px;
+  }
+  
+  .call {
+    color: #3e3e3e;
+    font-size: 18px;
+    font-weight: 500;
+    margin-left: 29px;
+    padding-top: 30px;
+  }
+  
+  button {
+    margin: 12px;
+    height: 47px;
+    width: 140px;
+    border-radius: 35px;
+  }
+  
+  .primary {
+    color: #fff3f4;
+    background-color: #c8242f;
+    border-color: #c8242f;
+    font-size: 16px;
+    font-weight: 500;
+    margin-left: 32px;
+  }
+  
+  .secondary {
+    border-color: #c8242f;
+    color: #c8242f;
+    background-color: #ffffff;
+  }
+  
+  .ul {
+    display: flex;
+    gap: 4rem;
+    margin-left: 21px;
+    position: relative;
+  }
+  
+  .li {
+    list-style: none;
+    padding: 0.5rem;
+    color: #ADADAD;
+    margin-left: -27px;
+  }
+  
+  .ul {
+    border-bottom: 1px solid #ADADAD;
+    width: 90%;
+  }
+  
+  .underline {
+    width: 67px;
+    height: 4px;
+    color: #C8242F;
+    background-color: #C8242F;
+    position: absolute;
+    top: 37px;
+    left: 1px;
+  }
+  
+  .tabtxt{
+    font-size: 15px;
+    font-weight: 400;
+    text-align: justify;
+    width: 90%;
+  }
+  .maincenter {
+    display: flex;
+  
+  }
+    </style>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <link rel="stylesheet" href="/css/innerpagefinal.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <div>
+        <nav class="navbar navbar-expand-lg fixed-top" style="background-color: #ffffff;">
+            <div class="container-fluid">
+                <img src="./images/menu-bar.svg" alt="logo" class="dashboard-toggle-logo">
+                <a class="navbar-brand" href="#"><img src="./images/logo.svg" alt="logo" class="dashboard-web-logo"></a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas"
+                    data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar">
+                    <span><img src="./images/menu-bar.svg" alt="logo"></span>
+                </button>
+                <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar"
+                    aria-labelledby="offcanvasNavbarLabel">
+                    <div class="offcanvas-header">
+                        <img class="offcanvas-title" id="offcanvasNavbarLabel"
+                            src="/images/mobile-header-logo.svg"></img>
+                        <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                    </div>
+                    <div class="offcanvas-body">
+                        <ul class="navbar-nav justify-content-start flex-grow-1">
+                            <li class="nav-item d-flex align-items-center dashboard-search-toggle">
+                                <img src="/images/search-icon - Copy.svg" alt="" class="dashboard-search-icon">
+                                <div class="searchspace">
+                                    <input type="search" class="form-control rounded searchbar" placeholder="Search"
+                                        aria-label="Search" aria-describedby="search-addon" />
+                                </div>
+                            </li>
+                        </ul>
+
+                        <ul class="navbar-nav justify-content-end dashboard-nav-sidebar-toggle">
+                            <li class="nav-item d-flex align-items-center">
+                                <div class="sidebar-detail d-flex">
+                                    <img src="./images/dashboard-active.svg" alt="" class="dashboard-active sidebarimg">
+                                    <div class="">Dashboard</div>
+                                </div>
+                            </li>
+                            <li class="nav-item d-flex dashbord-sidebar-detail dashboard-active-tab align-items-center">
+                                <div class="sidebar-detail d-flex">
+                                    <img src="./images/graph-active.svg" alt="" class="graph-default sidebarimg ">
+                                    <div class="">Analysis</div>
+                                </div>
+                            </li>
+                            <li class="nav-item d-flex align-items-center">
+                                <div class="sidebar-detail d-flex">
+                                    <img src="./images/inbox-default.svg" alt="" class="inbox-default sidebarimg ">
+                                    <div class="">Inbox</div>
+                                </div>
+                            </li>
+                            <li class="nav-item d-flex align-items-center">
+                                <div class="sidebar-detail d-flex">
+                                    <img src="./images/clock-default.svg" alt="" class="clock-default sidebarimg ">
+                                    <div class="">History</div>
+                                </div>
+                            </li>
+                            <li class="nav-item d-flex align-items-center">
+                                <div class="sidebar-detail d-flex">
+                                    <img src="/images/user-default .svg" alt="" class="user-default sidebarimg ">
+                                    <div class="">Users</div>
+                                </div>
+                            </li>
+                            <li class="nav-item d-flex align-items-center">
+                                <div class="sidebar-detail d-flex">
+                                    <img src="./images/maintenance-default.svg" alt=""
+                                        class="maintenance-default sidebarimg ">
+                                    <div class="">Maintenance</div>
+                                </div>
+                            </li>
+                            <li class="nav-item d-flex align-items-center">
+                                <div class="sidebar-detail d-flex">
+                                    <img src="/images/setting-default - Copy.svg" alt="" class="setting-default sidebarimg ">
+                                    <div class="">Setting</div>
+                                </div>
+                            </li>
+                        </ul>
+
+                        <ul class="navbar-nav justify-content-end">
+                            <li class="nav-item d-flex align-items-center">
+                                <img src="./images/notification-icon.svg" alt="" class="dashboard-notification-icon">
+                                <img src="./images/profile.png" alt="" class="dashboard-profile-icon">
+                                <div>John Doe</div>
+                                <img src="./images/downward-arrow.svg" alt="" class="dashboard-select-downward">
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </nav>
+
+        <div class="container-fluid well" id="home" style="display:block; padding-top:60px;">
+            <div class="row">
+                <div class="col-lg-2 dashboard-sidebar-toggle">
+                    <div class="sidebar">
+                        <div class="sidebar-detail d-flex">
+                            <img src="./images/dashboard-active.svg" alt="" class="dashboard-active sidebarimg">
+                            <div class="">Dashboard</div>
+                        </div>
+                        <div class="sidebar-detail dashbord-sidebar-detail dashboard-active-tab d-flex">
+                            <img src="./images/graph-active.svg" alt="" class="graph-default sidebarimg ">
+                            <div class="">Analysis</div>
+                        </div>
+                        <div class="sidebar-detail d-flex">
+                            <img src="./images/inbox-default.svg" alt="" class="inbox-default sidebarimg ">
+                            <div class="">Inbox</div>
+                        </div>
+                        <div class="sidebar-detail d-flex">
+                            <img src="./images/clock-default.svg" alt="" class="clock-default sidebarimg ">
+                            <div class="">History</div>
+                        </div>
+                        <div class="sidebar-detail d-flex">
+                            <img src="/images/user-default .svg" alt="" class="user-default sidebarimg ">
+                            <div class="">Users</div>
+                        </div>
+                        <div class="sidebar-detail d-flex">
+                            <img src="./images/maintenance-default.svg" alt="" class="maintenance-default sidebarimg ">
+                            <div class="">Maintenance</div>
+                        </div>
+                        <div class="sidebar-detail d-flex">
+                            <img src="/images/setting-default - Copy.svg" alt="" class="setting-default sidebarimg ">
+                            <div class="">Setting</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-10 col-12 mt-4 mainbody">
+                    <div class="container-fluid row">
+                        <div class="anaysis mt-3 fs-3">
+                            Analysis
+                        </div>
+                        <div class="formelement col-lg-12 col-md-12 col-sm-12 ms-3 mt-3">
+                            <p class="oneclmn fs-5 mt-4">One Column</p>
+                            <input class="form-control username" type="text" placeholder="Name">
+                            <select class="form-control-md dropdown" id="dropdown">
+                                <option>Dropdown</option>
+                                <option>a</option>
+                                <option>b</option>
+                                <option>c</option>
+                                <option>d</option>
+                            </select>
+                            <textarea class="textarea" id="textarea" rows="3" placeholder="Multiple Lines"></textarea>
+                            <p class="oneclmn fs-5 mt-3">Two Column</p>
+                            <div class="twoclmn col-lg-12 col-md-12 col-sm-12">
+                                <div class="firsttwoclmn row col-lg-12 col-md-12 col-sm-12">
+                                    <div class="left2name col-lg-5 col-md-5 col-sm-12 ms-5">
+                                        <input type="text" class="name1" id="name1" placeholder="Name" />
+                                    </div>
+                                    <div class="legend2right col-lg-5 col-md-5 col-sm-12 ms-3">
+                                        <fieldset>
+                                            <legend><span class="legendname">Username</span></legend>
+                                            <p class="fs-7">johndoe</p>
+                                        </fieldset>
+                                    </div>
+                                </div>
+                                <div class="last2clmn row col-lg-12 col-md-12 col-sm-12">
+                                    <div class="left2name col-lg-5 col-md-5 col-sm-12 ms-5 mt-3">
+                                        <input type="text" class="name1" id="name1" placeholder="Name" />
+                                    </div>
+                                    <div class="left2name col-lg-5 col-md-5 col-sm-12 ms-3 mt-2">
+                                        <select class="form-control-md dropdown2clmn" id="dropdown2clmn">
+                                            <option>Dropdown</option>
+                                            <option>a</option>
+                                            <option>b</option>
+                                            <option>c</option>
+                                            <option>d</option>
+                                        </select>
+                                    </div>
+
+                                </div>
+                            </div>
+                            <p class="oneclmn fs-5 mt-4">Three Column</p>
+                            <div class="threeclmn row col-lg-12 col-md-12 col-sm-12 mt-4">
+                                <div class="threeclmn1 col-lg-4 col-md-4 col-sm-12">
+                                    <fieldset id="focus">
+                                        <legend><span class="legendname">Focus</span></legend>
+                                        |
+                                    </fieldset>
+                                </div>
+                                <div class="threeclmn2 col-lg-4 col-md-4 col-sm-12">
+                                    <fieldset id="pwd">
+                                        <legend><span class="legendname">Password</span></legend>
+                                        <label class="circle">......</label>
+                                    </fieldset>
+                                </div>
+                                <div class="threeclmn3 col-lg-4 col-md-4  col-sm-12">
+                                    <fieldset id="dotted">
+                                        <legend><span class="legendname">Disabled</span></legend>
+                                        johndoe
+                                    </fieldset>
+                                </div>
+
+                            </div>
+                            <p class="oneclmn fs-5 mt-4">Four Column</p>
+
+                            <div class="fourclmn row col-lg-12 col-md-12 col-sm-12">
+                                <div class="threeclmn1 col-lg-3 col-md-6 col-sm-12 mt-4">
+                                    <fieldset id="desg">
+                                        <legend><span class="legendname" style="color: red;">Designation</span></legend>
+                                        UI Designer6
+                                    </fieldset>
+                                </div>
+                                <div class="threeclmn2 col-lg-3 col-md-6 col-sm-12 mt-4">
+                                    <input type="text" class="fourcolumn2" id="fourcolumn2" placeholder="Name" />
+                                </div>
+                                <div class="threeclmn3 col-lg-3 col-md-6  col-sm-12 mt-4">
+                                    <fieldset>
+                                        <legend><span class="legendname">Username</span></legend>
+                                        johndoe
+                                    </fieldset>
+                                </div>
+                                <div class="left2name col-lg-3 col-md-6 col-sm-12 mt-4">
+                                    <select class="form-control-md dropdown4clmn" id="dropdown4clmn">
+                                        <option>Dropdown</option>
+                                        <option>a</option>
+                                        <option>b</option>
+                                        <option>c</option>
+                                        <option>d</option>
+                                    </select>
+                                </div>
+
+
+                            </div>
+                            <p class="oneclmn fs-4 mt-5">Other Design Elements</p>
+                            <p class="oneclmn fs-5 mt-4"> File Upload</p>
+                            <div class="file-upload">
+                                <div class="upload ">
+                                    <div class="uploadbtn">
+                                        <img src="images/cloud-upload-icon.svg" class="uploadimg">
+                                        <p class="uploadtxt">Upload</p>
+                                    </div>
+                                    <p class="noitemselect">No item Selected</p>
+                                </div>
+                            </div>
+                            <p class="oneclmn fs-5 mt-4">Radio Button</p>
+
+                            <input type="radio" class="btn1" name="btn"><span>option1</span>
+                            <input type="radio" class="btn1 ms-3" name="btn" value="checked"><span>option2</span>
+                            <h4 class="oneclmn fs-5 mt-4 mb-3">Checkbox</h4>
+                            <input type="checkbox" name="check1" class="btn1"><span>option1</span>
+                            <input type="checkbox" name="check2" class="btn1 ms-3"><span>option2</span>
+                            <p class="oneclmn fs-5 mt-4">
+                                Snackbar
+                            </p>
+                            <div class="row container mt-0">
+                                <div class="first2 d-flex row">
+                                    <div class="err col-lg-5 col-md-5 col-sm-12">
+                                        <img src="images/error-icon.svg" class="snackimg">
+                                        <p class="errtxt">
+                                            This is an error message
+                                        </p>
+                                    </div>
+                                    <div class="info col-lg-5 col-md-5 col-sm-12 ms-5">
+                                        <img src="images/info-icon.svg" class="snackimg">
+                                        <p class="infotxt">
+                                            This is an info message
+                                        </p>
+
+                                    </div>
+                                </div>
+                                <div class="last2 row">
+                                    <div class="warning col-lg-5 col-md-5 col-sm-12">
+                                        <img src="images/warning-icon.svg" class="snackimg">
+                                        <p class="warntxt">
+                                            This is a warning message
+                                        </p>
+
+                                    </div>
+                                    <div class="succ col-lg-5 col-md-5 col-sm-12 ms-5">
+                                        <img src="images/success-icon.svg" class="snackimg">
+                                        <p class="succtxt">
+                                            This is a success message
+                                        </p>
+
+                                    </div>
+
+                                </div>
+                            </div>
+                            <p class="oneclmn fs-5 mt-4">
+                                Call to action
+                            </p>
+                            <div class="calltoaction">
+                                <button class="primary">Primary</button>
+                                <button class="secondary">Secondary</button>
+                            </div>
+                            <p class="oneclmn fs-5 mt-4">
+                                Tabs
+                            </p>
+                            <div class="tabs">
+                                <ul class="ul">
+                                    <li class="li">Tab1</li>
+                                    <li class="li">Tab2</li>
+                                    <li class="li">Tab3</li>
+                                    <span class="underline"></span>
+                                </ul>
+        
+                                <p class="tabtxt">
+                                    Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing                        </p>
+                            </div>
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+        </div>
+    </div>
+    </div>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+        crossorigin="anonymous"></script>
+
+</body>
+
+</html>
