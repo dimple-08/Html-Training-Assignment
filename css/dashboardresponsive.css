@@ -27,8 +27,9 @@
   position: relative;
   }
  #headerlogomobile{
-  top: -30px;
-  left: -18px;
+  top: -25px;
+
+    left: -4px;
   display:block;
  }
  #headerlogo{
@@ -205,8 +206,9 @@
     position: relative;
     }
    #headerlogomobile{
-    top: -30px;
-    left: -18px;
+    top: -25px;
+
+    left: -4px;
     display:block;
    }
    #headerlogo{
@@ -385,8 +387,9 @@
   position: relative;
   }
  #headerlogomobile{
-  top: -30px;
-  left: -18px;
+  top: -25px;
+
+    left: -4px;
   display:block;
  }
  #headerlogo{
