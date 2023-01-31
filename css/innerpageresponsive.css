@@ -1,0 +1,360 @@
+@media only screen and (max-width: 768px) {
+    .header{
+        width: 100%;
+    }
+    #menubar{
+        width: 18px;
+        height:30px;
+    }
+    #name{
+        top:-105px;
+        left:679px;
+        width: 0px;
+        opacity: 0;
+        font: normal normal normal 12px/21px Roboto;
+    }
+    #downarraow1{
+        display: none;
+    }
+    #menu{
+        display: none;
+    }
+    #btnmenu{
+        display:block;
+        display: block;
+    /* height: 77%; */
+    top: 7px;
+    position: relative;
+    }
+   #headerlogomobile{
+    top: -30px;
+    left: -18px;
+    display:block;
+   }
+   #headerlogo{
+    display:none;
+   }
+   #search{
+    top: -61px;
+    left: 98px;
+   }
+   #searchtext{
+    display:none;
+   }
+   #notificaton{
+    top:-84px;
+    left: 607px;
+    width:22px;
+   }
+   #profile{
+    top:-86px;
+    left:620px;
+    width:34px;
+   }
+   #downarraow{
+    display: block;
+    top:-157px;
+    left:667px;
+    width:65px;
+   }
+   .mobile-menu-icon {
+    display: block;
+    width: fit-content;
+  }
+  #mySidebardesktop{
+    display:none;
+  }
+  #mySidebar{
+    display: block;
+  }
+  .sidenav {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 40px;
+    left: 0;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+  }
+  .sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+  }
+ 
+  
+  #containerdashboard{
+    left: 0px;
+    width: 100%;
+  }
+  #centercontainerer{
+    width:100%;
+    left:0px;
+  }
+  #onecolumndiv{
+    left:17px;
+    width:95%;
+  }
+  #twocolumndiv{
+    left:21px;
+  }
+  #threecolumndiv{
+    left:21px;
+  }
+  #fourcolumndiv{
+    left:21px;
+  }
+  #Otherdesignelementdiv{
+    left: 21px;
+  }
+  .input-bx > span{
+    padding: 0px;
+
+  }
+
+
+}
+@media only screen and (max-width: 480px) {
+    .header{
+        width: 100%;
+    }
+    #menubar{
+        width: 18px;
+        height:30px;
+    }
+    #name{
+        top:-105px;
+        left:377px;
+        width: 0px;
+        opacity: 0;
+        font: normal normal normal 12px/21px Roboto;
+    }
+    #downarraow1{
+        display: none;
+    }
+    #menu{
+        display: none;
+    }
+    #btnmenu{
+        display:block;
+        display: block;
+    /* height: 77%; */
+    top: 7px;
+    position: relative;
+    }
+   #headerlogomobile{
+    top: -30px;
+    left: -18px;
+    display:block;
+   }
+   #headerlogo{
+    display:none;
+   }
+   #search{
+    top: -61px;
+    left: 98px;
+   }
+   #searchtext{
+    display:none;
+   }
+   #notificaton{
+    top:-84px;
+    left:304px;
+    width:22px;
+   }
+   #profile{
+    top:-86px;
+    left:319px;
+    width:34px;
+   }
+   #downarraow{
+    display: block;
+    top:-157px;
+    left:368px;
+    width:65px;
+   }
+   .mobile-menu-icon {
+    display: block;
+    width: fit-content;
+  }
+  #mySidebardesktop{
+    display:none;
+  }
+  #mySidebar{
+    display: block;
+  }
+  .sidenav {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 40px;
+    left: 0;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+  }
+  .sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+  }
+ 
+  
+  #containerdashboard{
+    left: 0px;
+    width: 100%;
+  }
+  #centercontainerer{
+    width:100%;
+    left:0px;
+  }
+  #onecolumndiv{
+    left:17px;
+    width:95%;
+  }
+  #twocolumndiv{
+    left:21px;
+  }
+  #threecolumndiv{
+    left:21px;
+  }
+  #fourcolumndiv{
+    left:21px;
+  }
+  #Otherdesignelementdiv{
+    left: 21px;
+  }
+  .input-bx > span{
+    padding: 0px;
+
+  }
+
+
+}
+@media only screen and (max-width: 360px) {
+    .header{
+        width: 100%;
+    }
+    #menubar{
+        width: 18px;
+        height:30px;
+    }
+    #name{
+        top:-105px;
+        left:287px;
+        width: 0px;
+        opacity: 0;
+        font: normal normal normal 12px/21px Roboto;
+    }
+    #downarraow1{
+        display: none;
+    }
+    #menu{
+        display: none;
+    }
+    #btnmenu{
+        display:block;
+        display: block;
+    /* height: 77%; */
+    top: 7px;
+    position: relative;
+    }
+   #headerlogomobile{
+    top: -30px;
+    left: -18px;
+    display:block;
+   }
+   #headerlogo{
+    display:none;
+   }
+   #search{
+    top: -61px;
+    left: 98px;
+   }
+   #searchtext{
+    display:none;
+   }
+   #notificaton{
+    top:-84px;
+    left:192px;
+    width:22px;
+   }
+   #profile{
+    top:-86px;
+    left:195px;
+    width:34px;
+   }
+   #downarraow{
+    display: block;
+    top:-157px;
+    left:273px;
+    width:65px;
+   }
+   .mobile-menu-icon {
+    display: block;
+    width: fit-content;
+  }
+  #mySidebardesktop{
+    display:none;
+  }
+  #mySidebar{
+    display: block;
+  }
+  .sidenav {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 40px;
+    left: 0;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+  }
+  .sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+  }
+ 
+  
+  #containerdashboard{
+    left: 0px;
+    width: 100%;
+  }
+  #centercontainerer{
+    width:100%;
+    left:0px;
+  }
+  #onecolumndiv{
+    left:17px;
+    width:95%;
+  }
+  #twocolumndiv{
+    left:21px;
+  }
+  #threecolumndiv{
+    left:21px;
+  }
+  #fourcolumndiv{
+    left:21px;
+  }
+  #Otherdesignelementdiv{
+    left: 21px;
+  }
+  .input-bx > span{
+    padding: 0px;
+
+  }
+
+
+}
