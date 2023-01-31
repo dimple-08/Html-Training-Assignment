@@ -38,6 +38,9 @@
   top: -61px;
   left: 98px;
  }
+ .search1{
+  display: none;
+ }
  #searchtext{
   display:none;
  }
@@ -212,6 +215,9 @@
    #search{
     top: -61px;
     left: 98px;
+   }
+   .search1{
+    display: none;
    }
    #searchtext{
     display:none;
@@ -389,6 +395,9 @@
  #search{
   top: -61px;
   left: 98px;
+ }
+ .search1{
+  display: none;
  }
  #searchtext{
   display:none;
