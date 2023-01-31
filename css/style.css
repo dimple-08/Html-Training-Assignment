@@ -206,6 +206,15 @@ opacity: 1;
     opacity: 1;
     position: relative;
 }
+.search1{
+    top: 2px;
+    left: 149px;
+    width: 16px;
+    height: 16px;
+    background: 0% 0% no-repeat padding-box;
+    opacity: 1;
+    position: relative;
+}
 #searchtext{
     top: -23px;
     left: 342px;
