@@ -23,7 +23,7 @@
         display:block;
         display: block;
     /* height: 77%; */
-    top: 7px;
+    top: 9px;
     position: relative;
     }
    #headerlogomobile{
@@ -38,6 +38,9 @@
    #search{
     top: -61px;
     left: 98px;
+   }
+   .search1{
+    display: none;
    }
    #searchtext{
     display:none;
@@ -147,7 +150,7 @@
         display:block;
         display: block;
     /* height: 77%; */
-    top: 7px;
+    top: 9px;
     position: relative;
     }
    #headerlogomobile{
@@ -271,7 +274,7 @@
         display:block;
         display: block;
     /* height: 77%; */
-    top: 7px;
+    top: 9px;
     position: relative;
     }
    #headerlogomobile{
@@ -286,6 +289,9 @@
    #search{
     top: -61px;
     left: 98px;
+   }
+   .search1{
+    display: none;
    }
    #searchtext{
     display:none;
