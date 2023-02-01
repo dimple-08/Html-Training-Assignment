@@ -2,7 +2,7 @@
 <html>
 
 <head>
-    <title>CI_ForgotPassword</title>
+    <title>CI_Registration</title>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
@@ -120,41 +120,76 @@
                 </div>
             </div>
 
-            <div class="col-sm-12 col-md-4 col-lg-4 " id="formContainer">
+            <div class="col-sm-12 col-md-4 col-lg-4 " id="formContainer1">
+                
                 <div id="form">
                     <div>
                     <form>
-                        <h3 style="text-align: center;
-                        letter-spacing: 0px;
-                        color: #414141;
-                        opacity: 1;">Forgot Password</h3>
-                        <div class="text-center">
-                        <span>Enter your email address you've using for your account below and we will send you a password reset link</span>
-                        </div>
-                        <br>
-                        <br>
-                        <span id="Textinput">Email Address</span>
-                        <br>
+                        <div class="d-flex" id="formElement">
+                        <div class="d-flex flex-row">
+                        <span id="Textinput">First Name</span>
+                        
                         <input class="red-input" type="text">
-                        <br>
+                        </div>
+                        
+                        <div class="d-flex flex-row">
+                        <span id="Textinput">Last Name</span>
+                        
+                        <input class="red-input" type="text">
+                        </div>
+                        
+                        <div class="d-flex flex-row">
+                        <span id="Textinput">Phone Number</span>
+                        
+                        <input class="red-input" type="text">
+                        </div>
+                        
+                        <div class="d-flex flex-row">
+                        <span id="Textinput">Email Address</span>
+                        
+                        <input class="red-input" type="text">
+                        </div>
+                        
+                        <div class="d-flex flex-row">
+                        <span id="Textinput">Password</span>
+                        
+                        <input class="red-input" type="password">
+                        </div>
+                        
+                        <div class="d-flex flex-row">
+                        <span id="Textinput">Confirm Password</span>
+                        
+                        <input class="red-input" type="password">
+                        </div>
+                        
+                       
+                        
+                      
+                      
+                    </div>
                         <br>
                         <div id="loginbtndiv">
-                            <button id="btnlogin" onclick="openWin()">Reset my Password</button>
+                           
+                            <button id="btnlogin" onclick="openWin()">Register</button>
+                            
                             <br>
-                            <a id="passwordlink" href="./CILogin.html">Login</a>
+                            <a id="passwordlink1" href="./CIForgotPassword.html">Lost Your Passwpord?</a>
                             <br>
+                            <span id="registrationinfo1">Already Registered? <a>Login now</a></span>
+                            
                         </div>
                     </div>
-                        <a id="policylink">Privacy Policy</a>
+                        <a id="policylink1">Privacy Policy</a>
                     </form>
                 </div>
+                
             </div>
 
         </div>
     </div>
     <script>
         function openWin() {
-          window.open("CIResetPassword.html");
+          window.open("CIForgotPassword.html");
         }
         </script>
 </body>
